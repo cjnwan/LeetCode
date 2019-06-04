@@ -13,14 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        let s = Heaters()
-        
-        let house = [1,2,3,4]
-        
-        let heaters = [1,4]
-        
-        print(s.findRadius(house, heaters))
+        let s = ContainsDuplicate2()
+        let nums = [0,1,2,3,2,5], k = 4
+        print(s.containsNearbyDuplicate(nums,k))
     }
 }
 
