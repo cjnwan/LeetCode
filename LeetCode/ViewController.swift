@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = ContainsDuplicate2()
-        let nums = [0,1,2,3,2,5], k = 4
-        print(s.containsNearbyDuplicate(nums,k))
+        let s = FourSum()
+        let nums = [0,1,5,0,1,5,5,-4], target = 11
+        print(s.fourSum(nums, target))
     }
 }
 
