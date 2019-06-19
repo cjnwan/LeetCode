@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5087C3522BA516E00C00C6D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3422BA516E00C00C6D /* Heap.swift */; };
+		A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3622BA81B500C00C6D /* AVLTree.swift */; };
 		A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818722A0F8E70061BE20 /* Heaters.swift */; };
 		A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */; };
 		A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */; };
@@ -26,6 +28,7 @@
 		A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84C22A4ECFE0024159D /* Intersection of Two Arrays II.swift */; };
 		A5D7D84F22A5218B0024159D /* Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84E22A5218B0024159D /* Contains Duplicate.swift */; };
 		A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D85022A522FE0024159D /* Contains Duplicate II.swift */; };
+		A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5087C3422BA516E00C00C6D /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		A5087C3622BA81B500C00C6D /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		A53A818722A0F8E70061BE20 /* Heaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heaters.swift; sourceTree = "<group>"; };
 		A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Boomerangs.swift"; sourceTree = "<group>"; };
 		A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Island Perimeter.swift"; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		A5D7D84C22A4ECFE0024159D /* Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
 		A5D7D84E22A5218B0024159D /* Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contains Duplicate.swift"; sourceTree = "<group>"; };
 		A5D7D85022A522FE0024159D /* Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contains Duplicate II.swift"; sourceTree = "<group>"; };
+		A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Search Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		A576E7C8229FA83D00D04C93 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				A5D9E64C22A6968B00C6C9AE /* DataStruct */,
 				A576E7F7229FB2AF00D04C93 /* Array */,
 				A576E7C9229FA83D00D04C93 /* AppDelegate.swift */,
 				A576E7CB229FA83D00D04C93 /* ViewController.swift */,
@@ -167,6 +174,24 @@
 				A5D7D85022A522FE0024159D /* Contains Duplicate II.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		A5D9E64C22A6968B00C6C9AE /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9E64D22A6969E00C6C9AE /* Tree */,
+			);
+			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		A5D9E64D22A6969E00C6C9AE /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */,
+				A5087C3422BA516E00C00C6D /* Heap.swift */,
+				A5087C3622BA81B500C00C6D /* AVLTree.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,14 +328,17 @@
 				A5D7D84F22A5218B0024159D /* Contains Duplicate.swift in Sources */,
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,
+				A5087C3522BA516E00C00C6D /* Heap.swift in Sources */,
 				A576E7CC229FA83D00D04C93 /* ViewController.swift in Sources */,
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
+				A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
+				A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */,
 				A576E7CA229FA83D00D04C93 /* AppDelegate.swift in Sources */,
 				A576E7F9229FB2C800D04C93 /* TwoSum.swift in Sources */,
 				A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */,
