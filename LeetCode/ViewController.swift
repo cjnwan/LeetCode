@@ -13,29 +13,42 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-<<<<<<< HEAD
-//        let s = ContainsDuplicate2()
-//        let nums = [0,1,2,3,2,5], k = 4
-//        print(s.containsNearbyDuplicate(nums,k))
+        let graph = Graph<Character>(6)
         
-        let avlTree = AVLTree<Int>()
-        avlTree.insert(key: 10)
-        avlTree.insert(key: 20)
-        avlTree.insert(key: 30)
-        avlTree.insert(key: 40)
-        avlTree.insert(key: 50)
-        avlTree.insert(key: 25)
+        graph.addVertex("A")
+        graph.addVertex("B")
+        graph.addVertex("C")
+        graph.addVertex("D")
+        graph.addVertex("E")
+        graph.addVertex("F")
         
-        avlTree.preOrder()
-        print("------------------------------")
-        avlTree.inOrder()
-        print("------------------------------")
-        avlTree.postOrder()
-=======
-        let s = FourSum()
-        let nums = [0,1,5,0,1,5,5,-4], target = 11
-        print(s.fourSum(nums, target))
->>>>>>> 8910f67cfdad550d822fb4754e7ae68ad07aa9a1
+   
+        graph.addEdge(start: 0, end: 1, weight: 7)
+        graph.addEdge(start: 0, end: 2, weight: 4)
+        graph.addEdge(start: 1, end: 2, weight: 6)
+        graph.addEdge(start: 1, end: 3, weight: 2)
+        graph.addEdge(start: 1, end: 5, weight: 4)
+        graph.addEdge(start: 2, end: 5, weight: 8)
+        graph.addEdge(start: 3, end: 5, weight: 7)
+        graph.addEdge(start: 4, end: 5, weight: 1)
+        graph.addEdge(start: 2, end: 4, weight: 9)
+        
+//        graph.printMatrix()
+        
+//        graph.dfs()
+        
+//        graph.bfs()
+        
+//        print(graph.prime())
+        
+        graph.dijkstra(start: 0, end: 3)
+        
+        
+        let a = "abababbcdd"
+        
+        let b = "cd"
+        
+        print(a.rkSearch(b))
     }
 }
 

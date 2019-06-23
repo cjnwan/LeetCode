@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		A5087C3522BA516E00C00C6D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3422BA516E00C00C6D /* Heap.swift */; };
 		A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3622BA81B500C00C6D /* AVLTree.swift */; };
-=======
+		A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3A22BDF08E00C00C6D /* Graph.swift */; };
+		A5087C3F22BF5D8600C00C6D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3E22BF5D8600C00C6D /* String.swift */; };
 		A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2022A60850007FE443 /* Remove Duplicates from Sorted Array.swift */; };
 		A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */; };
 		A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2422A650C7007FE443 /* Move Zeroes.swift */; };
 		A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2622A65C88007FE443 /* Remove Element.swift */; };
-		A534AEA822A8EFD500AB4237 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534AEA722A8EFD500AB4237 /* AVLTree.swift */; };
->>>>>>> 8910f67cfdad550d822fb4754e7ae68ad07aa9a1
 		A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818722A0F8E70061BE20 /* Heaters.swift */; };
 		A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */; };
 		A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */; };
@@ -60,16 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		A5087C3422BA516E00C00C6D /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		A5087C3622BA81B500C00C6D /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
-=======
+		A5087C3A22BDF08E00C00C6D /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		A5087C3E22BF5D8600C00C6D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		A50C7F2022A60850007FE443 /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
 		A50C7F2422A650C7007FE443 /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
 		A50C7F2622A65C88007FE443 /* Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
-		A534AEA722A8EFD500AB4237 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
->>>>>>> 8910f67cfdad550d822fb4754e7ae68ad07aa9a1
 		A53A818722A0F8E70061BE20 /* Heaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heaters.swift; sourceTree = "<group>"; };
 		A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Boomerangs.swift"; sourceTree = "<group>"; };
 		A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Island Perimeter.swift"; sourceTree = "<group>"; };
@@ -126,6 +122,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5087C3822BDF07100C00C6D /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				A5087C3422BA516E00C00C6D /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		A5087C3922BDF07A00C00C6D /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				A5087C3A22BDF08E00C00C6D /* Graph.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		A5087C3D22BF5D7900C00C6D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				A5087C3E22BF5D8600C00C6D /* String.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		A576E7BD229FA83D00D04C93 = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +177,6 @@
 				A576E7D0229FA83F00D04C93 /* Assets.xcassets */,
 				A576E7D2229FA83F00D04C93 /* LaunchScreen.storyboard */,
 				A576E7D5229FA83F00D04C93 /* Info.plist */,
-				A534AEA722A8EFD500AB4237 /* AVLTree.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -209,6 +228,9 @@
 		A5D9E64C22A6968B00C6C9AE /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				A5087C3D22BF5D7900C00C6D /* String */,
+				A5087C3922BDF07A00C00C6D /* Graph */,
+				A5087C3822BDF07100C00C6D /* Heap */,
 				A5D9E64D22A6969E00C6C9AE /* Tree */,
 			);
 			path = DataStruct;
@@ -218,7 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */,
-				A5087C3422BA516E00C00C6D /* Heap.swift */,
 				A5087C3622BA81B500C00C6D /* AVLTree.swift */,
 			);
 			path = Tree;
@@ -366,14 +387,12 @@
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
-<<<<<<< HEAD
 				A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */,
-=======
 				A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */,
->>>>>>> 8910f67cfdad550d822fb4754e7ae68ad07aa9a1
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
+				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
+				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
 				A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */,
-				A534AEA822A8EFD500AB4237 /* AVLTree.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
