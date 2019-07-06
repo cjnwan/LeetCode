@@ -11,6 +11,21 @@
 		A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3622BA81B500C00C6D /* AVLTree.swift */; };
 		A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3A22BDF08E00C00C6D /* Graph.swift */; };
 		A5087C3F22BF5D8600C00C6D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C3E22BF5D8600C00C6D /* String.swift */; };
+		A5087C5122D034C900C00C6D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4122D034C800C00C6D /* Stack.swift */; };
+		A5087C5222D034C900C00C6D /* Remove All Adjacent Duplicates In String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4222D034C800C00C6D /* Remove All Adjacent Duplicates In String.swift */; };
+		A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4322D034C800C00C6D /* RemoveDuplicateLetters.swift */; };
+		A5087C5422D034C900C00C6D /* Backspace String Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4422D034C800C00C6D /* Backspace String Compare.swift */; };
+		A5087C5522D034C900C00C6D /* Longest Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4522D034C800C00C6D /* Longest Valid Parentheses.swift */; };
+		A5087C5622D034C900C00C6D /* NextGreaterElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4622D034C800C00C6D /* NextGreaterElement.swift */; };
+		A5087C5722D034C900C00C6D /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4722D034C800C00C6D /* Valid Parentheses.swift */; };
+		A5087C5822D034C900C00C6D /* Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4922D034C900C00C6D /* Reverse Linked List.swift */; };
+		A5087C5922D034C900C00C6D /* Odd Even Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4A22D034C900C00C6D /* Odd Even Linked List.swift */; };
+		A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4B22D034C900C00C6D /* Merge Two Sorted Lists.swift */; };
+		A5087C5B22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4C22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift */; };
+		A5087C5C22D034C900C00C6D /* Remove Linked List Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4D22D034C900C00C6D /* Remove Linked List Elements.swift */; };
+		A5087C5D22D034C900C00C6D /* Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4E22D034C900C00C6D /* Remove Nth Node From End of List.swift */; };
+		A5087C5E22D034C900C00C6D /* Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C4F22D034C900C00C6D /* Linked List.swift */; };
+		A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5087C5022D034C900C00C6D /* Swap Nodes in Pairs.swift */; };
 		A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2022A60850007FE443 /* Remove Duplicates from Sorted Array.swift */; };
 		A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */; };
 		A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2422A650C7007FE443 /* Move Zeroes.swift */; };
@@ -62,6 +77,21 @@
 		A5087C3622BA81B500C00C6D /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		A5087C3A22BDF08E00C00C6D /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		A5087C3E22BF5D8600C00C6D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A5087C4122D034C800C00C6D /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		A5087C4222D034C800C00C6D /* Remove All Adjacent Duplicates In String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove All Adjacent Duplicates In String.swift"; sourceTree = "<group>"; };
+		A5087C4322D034C800C00C6D /* RemoveDuplicateLetters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateLetters.swift; sourceTree = "<group>"; };
+		A5087C4422D034C800C00C6D /* Backspace String Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Backspace String Compare.swift"; sourceTree = "<group>"; };
+		A5087C4522D034C800C00C6D /* Longest Valid Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Longest Valid Parentheses.swift"; sourceTree = "<group>"; };
+		A5087C4622D034C800C00C6D /* NextGreaterElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGreaterElement.swift; sourceTree = "<group>"; };
+		A5087C4722D034C800C00C6D /* Valid Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
+		A5087C4922D034C900C00C6D /* Reverse Linked List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reverse Linked List.swift"; sourceTree = "<group>"; };
+		A5087C4A22D034C900C00C6D /* Odd Even Linked List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Odd Even Linked List.swift"; sourceTree = "<group>"; };
+		A5087C4B22D034C900C00C6D /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		A5087C4C22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted List II.swift"; sourceTree = "<group>"; };
+		A5087C4D22D034C900C00C6D /* Remove Linked List Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Linked List Elements.swift"; sourceTree = "<group>"; };
+		A5087C4E22D034C900C00C6D /* Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
+		A5087C4F22D034C900C00C6D /* Linked List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Linked List.swift"; sourceTree = "<group>"; };
+		A5087C5022D034C900C00C6D /* Swap Nodes in Pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swap Nodes in Pairs.swift"; sourceTree = "<group>"; };
 		A50C7F2022A60850007FE443 /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
 		A50C7F2422A650C7007FE443 /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -146,6 +176,35 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		A5087C4022D034C800C00C6D /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				A5087C4122D034C800C00C6D /* Stack.swift */,
+				A5087C4222D034C800C00C6D /* Remove All Adjacent Duplicates In String.swift */,
+				A5087C4322D034C800C00C6D /* RemoveDuplicateLetters.swift */,
+				A5087C4422D034C800C00C6D /* Backspace String Compare.swift */,
+				A5087C4522D034C800C00C6D /* Longest Valid Parentheses.swift */,
+				A5087C4622D034C800C00C6D /* NextGreaterElement.swift */,
+				A5087C4722D034C800C00C6D /* Valid Parentheses.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		A5087C4822D034C900C00C6D /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				A5087C4922D034C900C00C6D /* Reverse Linked List.swift */,
+				A5087C4A22D034C900C00C6D /* Odd Even Linked List.swift */,
+				A5087C4B22D034C900C00C6D /* Merge Two Sorted Lists.swift */,
+				A5087C4C22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift */,
+				A5087C4D22D034C900C00C6D /* Remove Linked List Elements.swift */,
+				A5087C4E22D034C900C00C6D /* Remove Nth Node From End of List.swift */,
+				A5087C4F22D034C900C00C6D /* Linked List.swift */,
+				A5087C5022D034C900C00C6D /* Swap Nodes in Pairs.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		A576E7BD229FA83D00D04C93 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +228,8 @@
 		A576E7C8229FA83D00D04C93 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				A5087C4822D034C900C00C6D /* Linked List */,
+				A5087C4022D034C800C00C6D /* Stack */,
 				A5D9E64C22A6968B00C6C9AE /* DataStruct */,
 				A576E7F7229FB2AF00D04C93 /* Array */,
 				A576E7C9229FA83D00D04C93 /* AppDelegate.swift */,
@@ -377,21 +438,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D7D84F22A5218B0024159D /* Contains Duplicate.swift in Sources */,
+				A5087C5822D034C900C00C6D /* Reverse Linked List.swift in Sources */,
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
+				A5087C5222D034C900C00C6D /* Remove All Adjacent Duplicates In String.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
+				A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,
+				A5087C5622D034C900C00C6D /* NextGreaterElement.swift in Sources */,
+				A5087C5722D034C900C00C6D /* Valid Parentheses.swift in Sources */,
 				A5087C3522BA516E00C00C6D /* Heap.swift in Sources */,
+				A5087C5C22D034C900C00C6D /* Remove Linked List Elements.swift in Sources */,
 				A576E7CC229FA83D00D04C93 /* ViewController.swift in Sources */,
+				A5087C5422D034C900C00C6D /* Backspace String Compare.swift in Sources */,
+				A5087C5522D034C900C00C6D /* Longest Valid Parentheses.swift in Sources */,
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
+				A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
+				A5087C5922D034C900C00C6D /* Odd Even Linked List.swift in Sources */,
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
+				A5087C5122D034C900C00C6D /* Stack.swift in Sources */,
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
 				A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */,
 				A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */,
+				A5087C5E22D034C900C00C6D /* Linked List.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
 				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
+				A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */,
+				A5087C5D22D034C900C00C6D /* Remove Nth Node From End of List.swift in Sources */,
 				A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
@@ -400,6 +475,7 @@
 				A576E7CA229FA83D00D04C93 /* AppDelegate.swift in Sources */,
 				A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */,
 				A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */,
+				A5087C5B22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift in Sources */,
 				A576E7F9229FB2C800D04C93 /* TwoSum.swift in Sources */,
 				A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */,
 			);
