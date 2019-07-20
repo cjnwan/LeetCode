@@ -13,6 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
+        
+        let num = [5,4,8,11,nil,13,4,7,2,nil,1]
+        
+        let v = Treee(num,false)
+        
+        v.buildbyLevel()
+        
+        print(v.hasPathSum(v.root, 22))
        
     }
 }

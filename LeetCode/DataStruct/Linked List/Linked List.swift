@@ -250,3 +250,38 @@ extension LinkedList {
         return dummy?.next
     }
 }
+
+extension LinkedList {
+    func insertionSortList(_ head: ListNode?) -> ListNode? {
+        
+        var head = head
+        
+        var pre = head
+        var curr = head?.next
+        while curr != nil {
+            if curr!.val < pre!.val {
+                var c = head
+                var p = head
+                var flag = 1
+                while c!.val < curr!.val {
+                    flag = 0
+                    p = c
+                    c = c?.next
+                }
+                pre?.next = curr?.next
+                curr?.next = c
+                if flag == 1 {
+                    head = curr
+                } else {
+                    p?.next = curr
+                }
+                curr = pre?.next
+            } else {
+                pre = curr
+                curr = curr?.next
+            }
+            
+        }
+        return head
+    }
+}

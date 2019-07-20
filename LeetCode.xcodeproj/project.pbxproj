@@ -46,6 +46,20 @@
 		A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BC22A756D5002708DF /* 3Sum.swift */; };
 		A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BE22A769BC002708DF /* 3Sum Closest.swift */; };
 		A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609C022A7BF94002708DF /* 4Sum.swift */; };
+		A5C9A03422D37577005443D4 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A03322D37577005443D4 /* Sort.swift */; };
+		A5C9A03622DCA581005443D4 /* SortArrayByParityII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A03522DCA581005443D4 /* SortArrayByParityII.swift */; };
+		A5C9A03822DCB185005443D4 /* Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A03722DCB185005443D4 /* Intersection.swift */; };
+		A5C9A03A22DCB7EA005443D4 /* Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A03922DCB7EA005443D4 /* Valid Anagram.swift */; };
+		A5C9A03C22DCC509005443D4 /* Sort Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A03B22DCC509005443D4 /* Sort Colors.swift */; };
+		A5C9A04B22E09B39005443D4 /* Kth Smallest Element in a Sorted Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04322E09B38005443D4 /* Kth Smallest Element in a Sorted Matrix.swift */; };
+		A5C9A04C22E09B39005443D4 /* Find Peak Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04422E09B38005443D4 /* Find Peak Element.swift */; };
+		A5C9A04D22E09B39005443D4 /* PeakIndexinaMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04522E09B38005443D4 /* PeakIndexinaMountainArray.swift */; };
+		A5C9A04E22E09B39005443D4 /* Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04622E09B38005443D4 /* Binary Search.swift */; };
+		A5C9A04F22E09B39005443D4 /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04722E09B38005443D4 /* Sqrt.swift */; };
+		A5C9A05022E09B39005443D4 /* Search Insert Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04822E09B39005443D4 /* Search Insert Position.swift */; };
+		A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04922E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift */; };
+		A5C9A05222E09B39005443D4 /* Find the Duplicate Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04A22E09B39005443D4 /* Find the Duplicate Number.swift */; };
+		A5C9A05422E09B84005443D4 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05322E09B84005443D4 /* Tree.swift */; };
 		A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84622A4B8260024159D /* MajorityElement.swift */; };
 		A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84822A4BE410024159D /* MajorityElement II.swift */; };
 		A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */; };
@@ -118,6 +132,20 @@
 		A5C609BC22A756D5002708DF /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		A5C609BE22A769BC002708DF /* 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		A5C609C022A7BF94002708DF /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
+		A5C9A03322D37577005443D4 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		A5C9A03522DCA581005443D4 /* SortArrayByParityII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArrayByParityII.swift; sourceTree = "<group>"; };
+		A5C9A03722DCB185005443D4 /* Intersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersection.swift; sourceTree = "<group>"; };
+		A5C9A03922DCB7EA005443D4 /* Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Anagram.swift"; sourceTree = "<group>"; };
+		A5C9A03B22DCC509005443D4 /* Sort Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Colors.swift"; sourceTree = "<group>"; };
+		A5C9A04322E09B38005443D4 /* Kth Smallest Element in a Sorted Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kth Smallest Element in a Sorted Matrix.swift"; sourceTree = "<group>"; };
+		A5C9A04422E09B38005443D4 /* Find Peak Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Find Peak Element.swift"; sourceTree = "<group>"; };
+		A5C9A04522E09B38005443D4 /* PeakIndexinaMountainArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeakIndexinaMountainArray.swift; sourceTree = "<group>"; };
+		A5C9A04622E09B38005443D4 /* Binary Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binary Search.swift"; sourceTree = "<group>"; };
+		A5C9A04722E09B38005443D4 /* Sqrt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
+		A5C9A04822E09B39005443D4 /* Search Insert Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Search Insert Position.swift"; sourceTree = "<group>"; };
+		A5C9A04922E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Find Smallest Letter Greater Than Target.swift"; sourceTree = "<group>"; };
+		A5C9A04A22E09B39005443D4 /* Find the Duplicate Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Find the Duplicate Number.swift"; sourceTree = "<group>"; };
+		A5C9A05322E09B84005443D4 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		A5D7D84622A4B8260024159D /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		A5D7D84822A4BE410024159D /* MajorityElement II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MajorityElement II.swift"; sourceTree = "<group>"; };
 		A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
@@ -228,10 +256,8 @@
 		A576E7C8229FA83D00D04C93 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				A5087C4822D034C900C00C6D /* Linked List */,
-				A5087C4022D034C800C00C6D /* Stack */,
+				A5C9A03222D37538005443D4 /* Algorithm */,
 				A5D9E64C22A6968B00C6C9AE /* DataStruct */,
-				A576E7F7229FB2AF00D04C93 /* Array */,
 				A576E7C9229FA83D00D04C93 /* AppDelegate.swift */,
 				A576E7CB229FA83D00D04C93 /* ViewController.swift */,
 				A576E7CD229FA83D00D04C93 /* Main.storyboard */,
@@ -286,9 +312,48 @@
 			path = Array;
 			sourceTree = "<group>";
 		};
+		A5C9A03222D37538005443D4 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9A04222E09B1A005443D4 /* BinarySearch */,
+				A5C9A04122E09B0F005443D4 /* Sort */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		A5C9A04122E09B0F005443D4 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9A03322D37577005443D4 /* Sort.swift */,
+				A5C9A03522DCA581005443D4 /* SortArrayByParityII.swift */,
+				A5C9A03722DCB185005443D4 /* Intersection.swift */,
+				A5C9A03922DCB7EA005443D4 /* Valid Anagram.swift */,
+				A5C9A03B22DCC509005443D4 /* Sort Colors.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		A5C9A04222E09B1A005443D4 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9A04622E09B38005443D4 /* Binary Search.swift */,
+				A5C9A04422E09B38005443D4 /* Find Peak Element.swift */,
+				A5C9A04922E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift */,
+				A5C9A04A22E09B39005443D4 /* Find the Duplicate Number.swift */,
+				A5C9A04322E09B38005443D4 /* Kth Smallest Element in a Sorted Matrix.swift */,
+				A5C9A04522E09B38005443D4 /* PeakIndexinaMountainArray.swift */,
+				A5C9A04822E09B39005443D4 /* Search Insert Position.swift */,
+				A5C9A04722E09B38005443D4 /* Sqrt.swift */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 		A5D9E64C22A6968B00C6C9AE /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				A576E7F7229FB2AF00D04C93 /* Array */,
+				A5087C4822D034C900C00C6D /* Linked List */,
+				A5087C4022D034C800C00C6D /* Stack */,
 				A5087C3D22BF5D7900C00C6D /* String */,
 				A5087C3922BDF07A00C00C6D /* Graph */,
 				A5087C3822BDF07100C00C6D /* Heap */,
@@ -300,6 +365,7 @@
 		A5D9E64D22A6969E00C6C9AE /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				A5C9A05322E09B84005443D4 /* Tree.swift */,
 				A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */,
 				A5087C3622BA81B500C00C6D /* AVLTree.swift */,
 			);
@@ -441,19 +507,28 @@
 				A5087C5822D034C900C00C6D /* Reverse Linked List.swift in Sources */,
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5087C5222D034C900C00C6D /* Remove All Adjacent Duplicates In String.swift in Sources */,
+				A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
 				A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,
+				A5C9A04B22E09B39005443D4 /* Kth Smallest Element in a Sorted Matrix.swift in Sources */,
 				A5087C5622D034C900C00C6D /* NextGreaterElement.swift in Sources */,
 				A5087C5722D034C900C00C6D /* Valid Parentheses.swift in Sources */,
 				A5087C3522BA516E00C00C6D /* Heap.swift in Sources */,
 				A5087C5C22D034C900C00C6D /* Remove Linked List Elements.swift in Sources */,
+				A5C9A03422D37577005443D4 /* Sort.swift in Sources */,
+				A5C9A03822DCB185005443D4 /* Intersection.swift in Sources */,
 				A576E7CC229FA83D00D04C93 /* ViewController.swift in Sources */,
+				A5C9A03C22DCC509005443D4 /* Sort Colors.swift in Sources */,
 				A5087C5422D034C900C00C6D /* Backspace String Compare.swift in Sources */,
 				A5087C5522D034C900C00C6D /* Longest Valid Parentheses.swift in Sources */,
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
+				A5C9A05422E09B84005443D4 /* Tree.swift in Sources */,
+				A5C9A04C22E09B39005443D4 /* Find Peak Element.swift in Sources */,
+				A5C9A03622DCA581005443D4 /* SortArrayByParityII.swift in Sources */,
 				A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
+				A5C9A04E22E09B39005443D4 /* Binary Search.swift in Sources */,
 				A5087C5922D034C900C00C6D /* Odd Even Linked List.swift in Sources */,
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
@@ -466,17 +541,22 @@
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
 				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
 				A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */,
+				A5C9A03A22DCB7EA005443D4 /* Valid Anagram.swift in Sources */,
 				A5087C5D22D034C900C00C6D /* Remove Nth Node From End of List.swift in Sources */,
 				A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */,
+				A5C9A04D22E09B39005443D4 /* PeakIndexinaMountainArray.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
 				A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */,
 				A576E7CA229FA83D00D04C93 /* AppDelegate.swift in Sources */,
+				A5C9A05222E09B39005443D4 /* Find the Duplicate Number.swift in Sources */,
+				A5C9A05022E09B39005443D4 /* Search Insert Position.swift in Sources */,
 				A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */,
 				A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */,
 				A5087C5B22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift in Sources */,
 				A576E7F9229FB2C800D04C93 /* TwoSum.swift in Sources */,
+				A5C9A04F22E09B39005443D4 /* Sqrt.swift in Sources */,
 				A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
