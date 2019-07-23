@@ -14,15 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
+        let bst = BST<Int>()
         
-        
-        let num = [5,4,8,11,nil,13,4,7,2,nil,1]
-        
-        let v = Treee(num,false)
-        
-        v.buildbyLevel()
-        
-        print(v.hasPathSum(v.root, 22))
+        bst.put(2)
+        bst.put(3)
+        bst.put(4)
        
     }
 }

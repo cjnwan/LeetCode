@@ -60,6 +60,7 @@
 		A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04922E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift */; };
 		A5C9A05222E09B39005443D4 /* Find the Duplicate Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A04A22E09B39005443D4 /* Find the Duplicate Number.swift */; };
 		A5C9A05422E09B84005443D4 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05322E09B84005443D4 /* Tree.swift */; };
+		A5C9A05722E7491D005443D4 /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05622E7491D005443D4 /* BST.swift */; };
 		A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84622A4B8260024159D /* MajorityElement.swift */; };
 		A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84822A4BE410024159D /* MajorityElement II.swift */; };
 		A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */; };
@@ -146,6 +147,7 @@
 		A5C9A04922E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Find Smallest Letter Greater Than Target.swift"; sourceTree = "<group>"; };
 		A5C9A04A22E09B39005443D4 /* Find the Duplicate Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Find the Duplicate Number.swift"; sourceTree = "<group>"; };
 		A5C9A05322E09B84005443D4 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		A5C9A05622E7491D005443D4 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		A5D7D84622A4B8260024159D /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		A5D7D84822A4BE410024159D /* MajorityElement II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MajorityElement II.swift"; sourceTree = "<group>"; };
 		A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
@@ -368,6 +370,7 @@
 				A5C9A05322E09B84005443D4 /* Tree.swift */,
 				A5D9E64E22A696B300C6C9AE /* Binary Search Tree.swift */,
 				A5087C3622BA81B500C00C6D /* AVLTree.swift */,
+				A5C9A05622E7491D005443D4 /* BST.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5087C5222D034C900C00C6D /* Remove All Adjacent Duplicates In String.swift in Sources */,
 				A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */,
+				A5C9A05722E7491D005443D4 /* BST.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
 				A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,
