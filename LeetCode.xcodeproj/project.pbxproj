@@ -62,6 +62,15 @@
 		A5C9A05422E09B84005443D4 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05322E09B84005443D4 /* Tree.swift */; };
 		A5C9A05722E7491D005443D4 /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05622E7491D005443D4 /* BST.swift */; };
 		A5C9A05922E89CFC005443D4 /* RedBlackBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05822E89CFC005443D4 /* RedBlackBST.swift */; };
+		A5C9A05C22E9DFBC005443D4 /* LinearProbingHashST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05B22E9DFBC005443D4 /* LinearProbingHashST.swift */; };
+		A5C9A05E22E9EACE005443D4 /* SequentialSearchST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05D22E9EACE005443D4 /* SequentialSearchST.swift */; };
+		A5C9A06022E9EFF0005443D4 /* SeparateChainingHashST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A05F22E9EFF0005443D4 /* SeparateChainingHashST.swift */; };
+		A5C9A06222EF356B005443D4 /* LinkedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06122EF356B005443D4 /* LinkedGraph.swift */; };
+		A5C9A06422F0804B005443D4 /* Digraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06322F0804B005443D4 /* Digraph.swift */; };
+		A5C9A06722F08059005443D4 /* MaxPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06522F08059005443D4 /* MaxPQ.swift */; };
+		A5C9A06822F08059005443D4 /* MinPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06622F08059005443D4 /* MinPQ.swift */; };
+		A5C9A06A22F080C2005443D4 /* EdgeWeightGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06922F080C2005443D4 /* EdgeWeightGraph.swift */; };
+		A5C9A06C22F084A0005443D4 /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A06B22F084A0005443D4 /* Prime.swift */; };
 		A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84622A4B8260024159D /* MajorityElement.swift */; };
 		A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84822A4BE410024159D /* MajorityElement II.swift */; };
 		A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */; };
@@ -150,6 +159,15 @@
 		A5C9A05322E09B84005443D4 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		A5C9A05622E7491D005443D4 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		A5C9A05822E89CFC005443D4 /* RedBlackBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackBST.swift; sourceTree = "<group>"; };
+		A5C9A05B22E9DFBC005443D4 /* LinearProbingHashST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProbingHashST.swift; sourceTree = "<group>"; };
+		A5C9A05D22E9EACE005443D4 /* SequentialSearchST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialSearchST.swift; sourceTree = "<group>"; };
+		A5C9A05F22E9EFF0005443D4 /* SeparateChainingHashST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateChainingHashST.swift; sourceTree = "<group>"; };
+		A5C9A06122EF356B005443D4 /* LinkedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedGraph.swift; sourceTree = "<group>"; };
+		A5C9A06322F0804B005443D4 /* Digraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digraph.swift; sourceTree = "<group>"; };
+		A5C9A06522F08059005443D4 /* MaxPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxPQ.swift; sourceTree = "<group>"; };
+		A5C9A06622F08059005443D4 /* MinPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinPQ.swift; sourceTree = "<group>"; };
+		A5C9A06922F080C2005443D4 /* EdgeWeightGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeWeightGraph.swift; sourceTree = "<group>"; };
+		A5C9A06B22F084A0005443D4 /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
 		A5D7D84622A4B8260024159D /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		A5D7D84822A4BE410024159D /* MajorityElement II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MajorityElement II.swift"; sourceTree = "<group>"; };
 		A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
@@ -187,6 +205,8 @@
 		A5087C3822BDF07100C00C6D /* Heap */ = {
 			isa = PBXGroup;
 			children = (
+				A5C9A06522F08059005443D4 /* MaxPQ.swift */,
+				A5C9A06622F08059005443D4 /* MinPQ.swift */,
 				A5087C3422BA516E00C00C6D /* Heap.swift */,
 			);
 			path = Heap;
@@ -195,7 +215,11 @@
 		A5087C3922BDF07A00C00C6D /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				A5C9A06322F0804B005443D4 /* Digraph.swift */,
 				A5087C3A22BDF08E00C00C6D /* Graph.swift */,
+				A5C9A06122EF356B005443D4 /* LinkedGraph.swift */,
+				A5C9A06922F080C2005443D4 /* EdgeWeightGraph.swift */,
+				A5C9A06B22F084A0005443D4 /* Prime.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -352,9 +376,20 @@
 			path = BinarySearch;
 			sourceTree = "<group>";
 		};
+		A5C9A05A22E9DF8B005443D4 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9A05B22E9DFBC005443D4 /* LinearProbingHashST.swift */,
+				A5C9A05D22E9EACE005443D4 /* SequentialSearchST.swift */,
+				A5C9A05F22E9EFF0005443D4 /* SeparateChainingHashST.swift */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
 		A5D9E64C22A6968B00C6C9AE /* DataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				A5C9A05A22E9DF8B005443D4 /* Hash */,
 				A576E7F7229FB2AF00D04C93 /* Array */,
 				A5087C4822D034C900C00C6D /* Linked List */,
 				A5087C4022D034C800C00C6D /* Stack */,
@@ -527,13 +562,17 @@
 				A5C9A03422D37577005443D4 /* Sort.swift in Sources */,
 				A5C9A03822DCB185005443D4 /* Intersection.swift in Sources */,
 				A576E7CC229FA83D00D04C93 /* ViewController.swift in Sources */,
+				A5C9A06A22F080C2005443D4 /* EdgeWeightGraph.swift in Sources */,
+				A5C9A06C22F084A0005443D4 /* Prime.swift in Sources */,
 				A5C9A03C22DCC509005443D4 /* Sort Colors.swift in Sources */,
 				A5087C5422D034C900C00C6D /* Backspace String Compare.swift in Sources */,
 				A5087C5522D034C900C00C6D /* Longest Valid Parentheses.swift in Sources */,
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
 				A5C9A05422E09B84005443D4 /* Tree.swift in Sources */,
 				A5C9A04C22E09B39005443D4 /* Find Peak Element.swift in Sources */,
+				A5C9A06022E9EFF0005443D4 /* SeparateChainingHashST.swift in Sources */,
 				A5C9A03622DCA581005443D4 /* SortArrayByParityII.swift in Sources */,
+				A5C9A06222EF356B005443D4 /* LinkedGraph.swift in Sources */,
 				A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
 				A5C9A04E22E09B39005443D4 /* Binary Search.swift in Sources */,
@@ -544,22 +583,27 @@
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
 				A5087C3722BA81B500C00C6D /* AVLTree.swift in Sources */,
 				A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */,
+				A5C9A05E22E9EACE005443D4 /* SequentialSearchST.swift in Sources */,
 				A5087C5E22D034C900C00C6D /* Linked List.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
 				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
 				A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */,
+				A5C9A06822F08059005443D4 /* MinPQ.swift in Sources */,
 				A5C9A03A22DCB7EA005443D4 /* Valid Anagram.swift in Sources */,
 				A5087C5D22D034C900C00C6D /* Remove Nth Node From End of List.swift in Sources */,
 				A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */,
+				A5C9A06722F08059005443D4 /* MaxPQ.swift in Sources */,
 				A5C9A04D22E09B39005443D4 /* PeakIndexinaMountainArray.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
 				A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */,
+				A5C9A06422F0804B005443D4 /* Digraph.swift in Sources */,
 				A576E7CA229FA83D00D04C93 /* AppDelegate.swift in Sources */,
 				A5C9A05222E09B39005443D4 /* Find the Duplicate Number.swift in Sources */,
 				A5C9A05022E09B39005443D4 /* Search Insert Position.swift in Sources */,
+				A5C9A05C22E9DFBC005443D4 /* LinearProbingHashST.swift in Sources */,
 				A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */,
 				A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */,
 				A5087C5B22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift in Sources */,

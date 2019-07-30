@@ -90,7 +90,7 @@ extension Graph {
         while stack.count > 0 {
             v = nextVertex(stack.last!)
             if v < 0 {
-                stack.popLast()
+               let _ = stack.popLast()
             } else {
                 vertexs[v].visited = true
                 showVertex(v)

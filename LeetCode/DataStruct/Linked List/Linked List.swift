@@ -20,6 +20,37 @@ public class ListNode {
 public class LinkedList {
     var head:ListNode? = nil
     
+    public var tail:ListNode? {
+        var node = head
+        while let next  = node?.next {
+            node = next
+        }
+        return node
+    }
+    
+    public func Iterable() ->[Int] {
+        var result = [Int]()
+        var node = head;
+        while node != nil {
+            result.append(node!.val)
+            node = node?.next
+        }
+        return result
+    }
+    
+    public func add(_ val:Int) {
+        let node  = ListNode(val)
+        add(node)
+    }
+    
+    private func add(_ node:ListNode?) {
+        if let last = tail {
+            last.next = node
+        } else {
+            head = node
+        }
+    }
+    
     public func build(_ nums:[Int]) {
         var curr: ListNode? = nil
         for i in 0..<nums.count {
