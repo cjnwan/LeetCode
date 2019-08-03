@@ -50,3 +50,43 @@ public class LazyPrimeMST {
         return mst
     }
 }
+
+class PrimeMST {
+    fileprivate var marked:[Bool]   // 最小生成树的顶点
+    fileprivate var distTo:[Double] // distTo[w]=edgeTo[w].weight()
+    fileprivate var edgeTo:[Edge]  // 最小生成树的边
+    fileprivate var pq:IndexMinPQ<Double>  // 横切边
+    
+    init(_ G:EdgeWeightGraph) {
+        pq = IndexMinPQ<Double>(G.V)
+        marked = [Bool](repeating: false, count: G.V)
+        distTo = [Double](repeating: Double.greatestFiniteMagnitude, count: G.V)
+        edgeTo = [Edge](repeating: Edge(), count: G.V)
+        
+        distTo[0] = 0
+        pq.insert(0, 0) // 用顶点0和权重0初始化pq
+        while !pq.isEmpty() {
+            
+        }
+    }
+    
+    private func visit(_ G:EdgeWeightGraph, v:Int) {
+        marked[v] = true
+        
+        for e in G.adj[v].Iterable() {
+            let w = e.other(v)
+            if marked[w] {
+                continue
+            }
+            if e.weigh() < distTo[w] {
+                edgeTo[w] = e
+                distTo[w] = e.weigh()
+                if pq.contains(w) {
+                    pq.change(w, distTo[w])
+                } else {
+                    pq.insert(w, distTo[w])
+                }
+            }
+        }
+    }
+}

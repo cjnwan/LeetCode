@@ -57,6 +57,12 @@ public class Edge:Comparable {
     fileprivate var w:Int   // 另一个顶点
     fileprivate var weight:Double   // 边的权重
     
+    init() {
+        self.v = 0
+        self.w = 0
+        self.weight = 0
+    }
+    
     init(_ v:Int, _ w:Int, _ weight:Double) {
         self.v = v
         self.w = w
@@ -70,6 +76,10 @@ public class Edge:Comparable {
             return v
         }
         return 0
+    }
+    
+    public func weigh() ->Double {
+        return weight
     }
     
     public func either()->Int {
