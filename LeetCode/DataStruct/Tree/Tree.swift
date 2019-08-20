@@ -394,22 +394,6 @@ extension Treee {
     }
 }
 
-extension Treee {
-//    func isBalanced(_ root: TreeeNode?) -> Bool {
-//        if root == nil {
-//            return true
-//        }
-//
-//        return abs(height(root?.left) - height(root?.right)) <= 1
-//    }
-//
-//    func height(_ root:TreeeNode?) -> Int {
-//        if root == nil {
-//            return 0
-//        }
-//        return max(height(root?.left), height(root?.right)) + 1
-//    }
-}
 
 extension Treee {
     func diameterOfBinaryTree(_ root: TreeeNode?) -> Int {
@@ -474,5 +458,275 @@ extension Treee {
         }
         
         return sum
+    }
+}
+
+extension Treee {
+    func rangeSumBST(_ root: TreeeNode?, _ L: Int, _ R: Int) -> Int {
+        
+        var sum = 0
+        helper(root, L, R,&sum)
+        return sum
+        
+    }
+    
+    func helper(_ root:TreeeNode?,_ L: Int, _ R: Int, _ sum:inout Int) {
+        if root?.val == nil {
+            return
+        }
+        if root!.val >= L && root!.val <= R {
+            sum += root!.val
+        }
+        if root!.val > L {
+            helper(root?.left, L, R, &sum)
+        }
+        if root!.val < R {
+            helper(root?.right, L, R, &sum)
+        }
+    }
+}
+
+extension Treee {
+    func minDiffInBST(_ root: TreeeNode?) -> Int {
+        var min = 100000
+        minDiffInBST1(root, &min)
+        return min
+    }
+    
+    func minDiffInBST1(_ root: TreeeNode?, _ minV:inout Int) {
+        if root == nil {
+            return
+        }
+        
+        if root?.left ==  nil && root?.right == nil {
+            return
+        }
+        
+        if root?.left != nil {
+            var maxNode = root?.left
+            while maxNode?.right != nil {
+                maxNode = maxNode?.right
+            }
+            minV = min(minV, root!.val-maxNode!.val)
+        }
+        
+        if root?.right != nil {
+            var minNode = root?.right
+            while minNode?.left != nil {
+                minNode = minNode?.left
+            }
+            minV = min(minV, minNode!.val - root!.val)
+        }
+        
+        minDiffInBST1(root?.left,&minV)
+        minDiffInBST1(root?.right, &minV)
+    }
+}
+
+extension Treee {
+    func isBalanced(_ root: TreeeNode?) -> Bool {
+        var isBalance = true
+        let _ = isBalanced1(root,&isBalance)
+        return isBalance
+    }
+    
+    
+    func isBalanced1(_ root: TreeeNode?, _ isBalance:inout Bool) -> Int {
+        if root == nil {
+            return 0
+        }
+        
+        let left = isBalanced1(root?.left,&isBalance) + 1
+        let right  = isBalanced1(root?.right,&isBalance) + 1
+        
+        if abs(left-right) > 1 {
+            isBalance = false
+        }
+        
+        return max(left, right)
+    }
+}
+
+extension Treee {
+    func buildTreeNOPre(_ inorder: [Int], _ postorder: [Int]) -> TreeeNode? {
+        let inCount = inorder.count
+        let poCount = postorder.count
+        return buildTree1(inorder, postorder, 0, inCount-1, 0, poCount-1)
+    }
+    
+    func buildTree1(_ inorder: [Int], _ postorder: [Int], _ il:Int, _ ir:Int, _ pl:Int, _ pr:Int ) -> TreeeNode? {
+        
+        if il > ir || pl > pr {
+            return nil
+        }
+        
+        let rootValue = postorder[pr]
+        var index = 0
+        for i in il..<ir+1 {
+            if inorder[i] == rootValue {
+                index = i
+                break
+            }
+        }
+        
+        let root = TreeeNode(rootValue)
+        
+        root.left = buildTree1(inorder, postorder, il, index-1, pl, index-1-il+pl)
+        root.right = buildTree1(inorder, postorder, index+1,ir, pr+index-ir, pr-1)
+        return root
+    }
+    
+}
+
+extension Treee {
+    func buildTreeNOPost(_ preorder: [Int], _ inorder: [Int]) -> TreeeNode? {
+        let preCount = preorder.count
+        let inCount = inorder.count
+        return buildTree2(preorder, inorder, 0, preCount-1, 0, inCount-1)
+    }
+    
+    func buildTree2(_ preorder: [Int], _ inorder: [Int], _ il:Int, _ ir:Int, _ pl:Int, _ pr:Int ) -> TreeeNode? {
+        
+        if il > ir || pl > pr {
+            return nil
+        }
+        
+        let rootValue = preorder[il]
+        var index = 0
+        for i in pl..<pr+1 {
+            if inorder[i] == rootValue {
+                index = i
+                break
+            }
+        }
+        
+        let root = TreeeNode(rootValue)
+        
+        root.left = buildTree2(preorder, inorder, il+1, il+index-pl, pl, index-1)
+        root.right = buildTree2(preorder, inorder, il + index - pl + 1,ir, index+1, pr)
+        return root
+    }
+}
+
+extension Treee {
+    func rightSideView(_ root: TreeeNode?) -> [Int] {
+        var res = [Int]()
+        rightSideView1(root, 0, &res)
+        return res
+    }
+    
+    func rightSideView1(_ root: TreeeNode?,_ level:Int, _ res:inout[Int]) {
+        if root == nil {
+            return
+        }
+        
+        if level == res.count {
+            res.append(root!.val)
+        }
+        
+        rightSideView1(root?.right, level+1, &res)
+        rightSideView1(root?.left, level+1, &res)
+    }
+}
+
+extension Treee {
+    func leafSimilar(_ root1: TreeeNode?, _ root2: TreeeNode?) -> Bool {
+        var res1 = [Int]()
+        leafSimilar1(root1, &res1)
+        
+        var res2 = [Int]()
+        leafSimilar1(root2, &res2)
+        
+        return res1 == res2 && res1.count == res2.count
+    }
+    
+    func leafSimilar1(_ root: TreeeNode?, _ res:inout[Int]) {
+        if root == nil {
+            return
+        }
+        if root?.left == nil && root?.right == nil {
+            res.append(root!.val)
+        }
+
+        leafSimilar1(root?.left, &res)
+        leafSimilar1(root?.right, &res)
+        
+    }
+}
+
+extension Treee {
+    func binaryTreePaths(_ root: TreeeNode?) -> [String] {
+        var res  = [String]()
+        binaryTreePaths1(root, &res,"")
+        
+        return res
+    }
+    
+    func binaryTreePaths1(_ root: TreeeNode?,_ res:inout[String], _ cur:String) {
+        if root == nil {
+            return
+        }
+        if root?.left == nil && root?.right == nil {
+            var cur = cur+"\(root!.val)"
+            
+            res.append(cur)
+        }
+        
+        binaryTreePaths1(root?.left, &res,cur+"\(root!.val)->")
+        binaryTreePaths1(root?.right, &res,cur+"\(root!.val)->")
+    }
+}
+
+extension Treee {
+    func largestValues(_ root: TreeeNode?) -> [Int] {
+        var res = [Int]()
+        
+        largestValues1(root,0,&res)
+        return res
+    }
+    
+    func largestValues1(_ root: TreeeNode?, _ level:Int, _ res:inout[Int]) {
+        if root == nil {
+            return
+        }
+        
+        if res.count == level {
+            res.append(root!.val)
+        } else {
+            if root!.val > res[level] {
+                res[level] = root!.val
+            }
+        }
+        
+        largestValues1(root?.right, level+1, &res)
+        largestValues1(root?.left, level+1, &res)
+    }
+}
+
+extension Treee {
+    func levelOrderBottom2(_ root: TreeeNode?) -> [[Int]] {
+        if root == nil {
+            return []
+        }
+        var stack = [[Int]]()
+        var queue = [TreeeNode?]()
+        queue.append(root)
+        while queue.count > 0 {
+            
+            let count = queue.count
+            var res  = [Int]()
+            for i in 0..<count {
+                let curr = queue.removeFirst()
+                res.append(curr!.val)
+                if curr!.left != nil {
+                    queue.append(curr!.left)
+                }
+                if curr!.right != nil {
+                    queue.append(curr!.right)
+                }
+            }
+            stack.insert(res, at: 0)
+        }
+        return stack
     }
 }

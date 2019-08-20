@@ -14,11 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        let bst = BST<Int>()
+        let nums = [1,3,2,5,3,nil,9]
+        let t = Treee(nums,false)
+        t.buildbyLevel()
         
-        bst.put(2)
-        bst.put(3)
-        bst.put(4)
+//        let nums2 = [2]
+//        let t1 = Treee(nums2,false)
+//        t1.buildbyLevel()
+        
+        print(t.largestValues(t.root))
+        
+  
        
     }
 }
