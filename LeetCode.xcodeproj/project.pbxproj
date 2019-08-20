@@ -43,6 +43,7 @@
 		A576E7F9229FB2C800D04C93 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E7F8229FB2C800D04C93 /* TwoSum.swift */; };
 		A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E7FA229FB92300D04C93 /* Sort Array By Parity.swift */; };
 		A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E7FC229FC71F00D04C93 /* Max Consecutive Ones.swift */; };
+		A5851CB4230B7253002EE81B /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5851CB3230B7253002EE81B /* Permutations.swift */; };
 		A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BC22A756D5002708DF /* 3Sum.swift */; };
 		A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BE22A769BC002708DF /* 3Sum Closest.swift */; };
 		A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609C022A7BF94002708DF /* 4Sum.swift */; };
@@ -144,6 +145,7 @@
 		A576E7F8229FB2C800D04C93 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		A576E7FA229FB92300D04C93 /* Sort Array By Parity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Array By Parity.swift"; sourceTree = "<group>"; };
 		A576E7FC229FC71F00D04C93 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
+		A5851CB3230B7253002EE81B /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A5C609BC22A756D5002708DF /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		A5C609BE22A769BC002708DF /* 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		A5C609C022A7BF94002708DF /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 		A5851CB2230B70E4002EE81B /* DFS */ = {
 			isa = PBXGroup;
 			children = (
+				A5851CB3230B7253002EE81B /* Permutations.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */,
 				A5C9A07222F1CFD4005443D4 /* IndexMaxPQ.swift in Sources */,
 				A5C9A05722E7491D005443D4 /* BST.swift in Sources */,
+				A5851CB4230B7253002EE81B /* Permutations.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
 				A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,

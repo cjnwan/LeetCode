@@ -14,16 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        let nums = [1,3,2,5,3,nil,9]
-        let t = Treee(nums,false)
-        t.buildbyLevel()
+//        let nums = [1,3,2,5,3,nil,9]
+//        let t = Treee(nums,false)
+//        t.buildbyLevel()
+//        print(t.largestValues(t.root))
         
-//        let nums2 = [2]
-//        let t1 = Treee(nums2,false)
-//        t1.buildbyLevel()
         
-        print(t.largestValues(t.root))
-        
+        let p = Permutations()
+        let nums = [1,2,3]
+        print(p.permute(nums))
   
        
     }
