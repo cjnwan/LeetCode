@@ -20,9 +20,10 @@ class ViewController: UIViewController {
 //        print(t.largestValues(t.root))
         
         
-        let p = Permutations()
-        let nums = [1,2,3]
-        print(p.permute(nums))
+        let p = LongestIncreasingSubsequence()
+        let nums = [10,9,2,5,3,7,101,18]
+        
+        print(p.lengthOfLIS(nums))
   
        
     }

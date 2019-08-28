@@ -44,6 +44,24 @@
 		A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E7FA229FB92300D04C93 /* Sort Array By Parity.swift */; };
 		A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E7FC229FC71F00D04C93 /* Max Consecutive Ones.swift */; };
 		A5851CB4230B7253002EE81B /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5851CB3230B7253002EE81B /* Permutations.swift */; };
+		A5BF3B5E2314169800D2BDC5 /* Min-Cost-Climbing-Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5B2314169700D2BDC5 /* Min-Cost-Climbing-Stairs.swift */; };
+		A5BF3B5F2314169800D2BDC5 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5C2314169700D2BDC5 /* Climbing Stairs.swift */; };
+		A5BF3B602314169800D2BDC5 /* Unique Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5D2314169700D2BDC5 /* Unique Paths.swift */; };
+		A5BF3B622314172F00D2BDC5 /* Unique Paths ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B612314172F00D2BDC5 /* Unique Paths ii.swift */; };
+		A5BF3B6C23142A1000D2BDC5 /* Combination Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6323142A1000D2BDC5 /* Combination Sum II.swift */; };
+		A5BF3B6D23142A1000D2BDC5 /* Permutationsii.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6423142A1000D2BDC5 /* Permutationsii.swift */; };
+		A5BF3B6F23142A1000D2BDC5 /* Combination Sum III.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6623142A1000D2BDC5 /* Combination Sum III.swift */; };
+		A5BF3B7023142A1000D2BDC5 /* Palindrome Partitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6723142A1000D2BDC5 /* Palindrome Partitioning.swift */; };
+		A5BF3B7123142A1000D2BDC5 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6823142A1000D2BDC5 /* Combinations.swift */; };
+		A5BF3B7223142A1000D2BDC5 /* Combination Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6923142A1000D2BDC5 /* Combination Sum.swift */; };
+		A5BF3B7323142A1000D2BDC5 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6A23142A1000D2BDC5 /* Subsets.swift */; };
+		A5BF3B7423142A1000D2BDC5 /* Subsetsii.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B6B23142A1000D2BDC5 /* Subsetsii.swift */; };
+		A5BF3B7623156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B7523156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift */; };
+		A5BF3B7823156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B7723156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift */; };
+		A5BF3B7A2315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B792315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift */; };
+		A5BF3B7C2316BCC500D2BDC5 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B7B2316BCC500D2BDC5 /* Coin Change.swift */; };
+		A5BF3B7E2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B7D2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift */; };
+		A5BF3B802316CB7E00D2BDC5 /* Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B7F2316CB7E00D2BDC5 /* Longest Palindromic Substring.swift */; };
 		A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BC22A756D5002708DF /* 3Sum.swift */; };
 		A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609BE22A769BC002708DF /* 3Sum Closest.swift */; };
 		A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C609C022A7BF94002708DF /* 4Sum.swift */; };
@@ -146,6 +164,24 @@
 		A576E7FA229FB92300D04C93 /* Sort Array By Parity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sort Array By Parity.swift"; sourceTree = "<group>"; };
 		A576E7FC229FC71F00D04C93 /* Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones.swift"; sourceTree = "<group>"; };
 		A5851CB3230B7253002EE81B /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		A5BF3B5B2314169700D2BDC5 /* Min-Cost-Climbing-Stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Min-Cost-Climbing-Stairs.swift"; sourceTree = "<group>"; };
+		A5BF3B5C2314169700D2BDC5 /* Climbing Stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
+		A5BF3B5D2314169700D2BDC5 /* Unique Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unique Paths.swift"; sourceTree = "<group>"; };
+		A5BF3B612314172F00D2BDC5 /* Unique Paths ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Paths ii.swift"; sourceTree = "<group>"; };
+		A5BF3B6323142A1000D2BDC5 /* Combination Sum II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combination Sum II.swift"; sourceTree = "<group>"; };
+		A5BF3B6423142A1000D2BDC5 /* Permutationsii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutationsii.swift; sourceTree = "<group>"; };
+		A5BF3B6623142A1000D2BDC5 /* Combination Sum III.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combination Sum III.swift"; sourceTree = "<group>"; };
+		A5BF3B6723142A1000D2BDC5 /* Palindrome Partitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palindrome Partitioning.swift"; sourceTree = "<group>"; };
+		A5BF3B6823142A1000D2BDC5 /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		A5BF3B6923142A1000D2BDC5 /* Combination Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combination Sum.swift"; sourceTree = "<group>"; };
+		A5BF3B6A23142A1000D2BDC5 /* Subsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		A5BF3B6B23142A1000D2BDC5 /* Subsetsii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subsetsii.swift; sourceTree = "<group>"; };
+		A5BF3B7523156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		A5BF3B7723156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		A5BF3B792315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock III.swift"; sourceTree = "<group>"; };
+		A5BF3B7B2316BCC500D2BDC5 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
+		A5BF3B7D2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Increasing Subsequence.swift"; sourceTree = "<group>"; };
+		A5BF3B7F2316CB7E00D2BDC5 /* Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		A5C609BC22A756D5002708DF /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		A5C609BE22A769BC002708DF /* 3Sum Closest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		A5C609C022A7BF94002708DF /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
@@ -357,14 +393,40 @@
 		A5851CB2230B70E4002EE81B /* DFS */ = {
 			isa = PBXGroup;
 			children = (
+				A5BF3B6323142A1000D2BDC5 /* Combination Sum II.swift */,
+				A5BF3B6623142A1000D2BDC5 /* Combination Sum III.swift */,
+				A5BF3B6923142A1000D2BDC5 /* Combination Sum.swift */,
+				A5BF3B6823142A1000D2BDC5 /* Combinations.swift */,
+				A5BF3B6723142A1000D2BDC5 /* Palindrome Partitioning.swift */,
+				A5BF3B6423142A1000D2BDC5 /* Permutationsii.swift */,
+				A5BF3B6A23142A1000D2BDC5 /* Subsets.swift */,
+				A5BF3B6B23142A1000D2BDC5 /* Subsetsii.swift */,
 				A5851CB3230B7253002EE81B /* Permutations.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
 		};
+		A5BF3B5A2314169700D2BDC5 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF3B5B2314169700D2BDC5 /* Min-Cost-Climbing-Stairs.swift */,
+				A5BF3B5C2314169700D2BDC5 /* Climbing Stairs.swift */,
+				A5BF3B5D2314169700D2BDC5 /* Unique Paths.swift */,
+				A5BF3B612314172F00D2BDC5 /* Unique Paths ii.swift */,
+				A5BF3B7523156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift */,
+				A5BF3B7723156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift */,
+				A5BF3B792315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift */,
+				A5BF3B7B2316BCC500D2BDC5 /* Coin Change.swift */,
+				A5BF3B7D2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift */,
+				A5BF3B7F2316CB7E00D2BDC5 /* Longest Palindromic Substring.swift */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
 		A5C9A03222D37538005443D4 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A5BF3B5A2314169700D2BDC5 /* DP */,
 				A5851CB2230B70E4002EE81B /* DFS */,
 				A5C9A04222E09B1A005443D4 /* BinarySearch */,
 				A5C9A04122E09B0F005443D4 /* Sort */,
@@ -568,6 +630,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D7D84F22A5218B0024159D /* Contains Duplicate.swift in Sources */,
+				A5BF3B7E2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift in Sources */,
 				A5087C5822D034C900C00C6D /* Reverse Linked List.swift in Sources */,
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5C9A07122F1CFD4005443D4 /* IndexMinPQ.swift in Sources */,
@@ -577,34 +640,44 @@
 				A5C9A05722E7491D005443D4 /* BST.swift in Sources */,
 				A5851CB4230B7253002EE81B /* Permutations.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
+				A5BF3B7023142A1000D2BDC5 /* Palindrome Partitioning.swift in Sources */,
 				A5087C5322D034C900C00C6D /* RemoveDuplicateLetters.swift in Sources */,
 				A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */,
+				A5BF3B7323142A1000D2BDC5 /* Subsets.swift in Sources */,
 				A5C9A05922E89CFC005443D4 /* RedBlackBST.swift in Sources */,
+				A5BF3B7C2316BCC500D2BDC5 /* Coin Change.swift in Sources */,
 				A5C9A04B22E09B39005443D4 /* Kth Smallest Element in a Sorted Matrix.swift in Sources */,
 				A5087C5622D034C900C00C6D /* NextGreaterElement.swift in Sources */,
 				A5087C5722D034C900C00C6D /* Valid Parentheses.swift in Sources */,
+				A5BF3B7A2315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift in Sources */,
 				A5087C3522BA516E00C00C6D /* Heap.swift in Sources */,
 				A5087C5C22D034C900C00C6D /* Remove Linked List Elements.swift in Sources */,
 				A5C9A03422D37577005443D4 /* Sort.swift in Sources */,
 				A5C9A03822DCB185005443D4 /* Intersection.swift in Sources */,
+				A5BF3B802316CB7E00D2BDC5 /* Longest Palindromic Substring.swift in Sources */,
 				A5C9A07822F1D616005443D4 /* Dijkstra.swift in Sources */,
 				A576E7CC229FA83D00D04C93 /* ViewController.swift in Sources */,
 				A5C9A06A22F080C2005443D4 /* EdgeWeightGraph.swift in Sources */,
 				A5C9A06C22F084A0005443D4 /* Prime.swift in Sources */,
 				A5C9A03C22DCC509005443D4 /* Sort Colors.swift in Sources */,
 				A5087C5422D034C900C00C6D /* Backspace String Compare.swift in Sources */,
+				A5BF3B6D23142A1000D2BDC5 /* Permutationsii.swift in Sources */,
 				A5087C5522D034C900C00C6D /* Longest Valid Parentheses.swift in Sources */,
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
 				A5C9A05422E09B84005443D4 /* Tree.swift in Sources */,
 				A5C9A04C22E09B39005443D4 /* Find Peak Element.swift in Sources */,
 				A5C9A06022E9EFF0005443D4 /* SeparateChainingHashST.swift in Sources */,
 				A5C9A03622DCA581005443D4 /* SortArrayByParityII.swift in Sources */,
+				A5BF3B7623156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A5C9A06222EF356B005443D4 /* LinkedGraph.swift in Sources */,
+				A5BF3B7423142A1000D2BDC5 /* Subsetsii.swift in Sources */,
 				A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
 				A5C9A04E22E09B39005443D4 /* Binary Search.swift in Sources */,
 				A5087C5922D034C900C00C6D /* Odd Even Linked List.swift in Sources */,
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
+				A5BF3B622314172F00D2BDC5 /* Unique Paths ii.swift in Sources */,
+				A5BF3B6F23142A1000D2BDC5 /* Combination Sum III.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
 				A5087C5122D034C900C00C6D /* Stack.swift in Sources */,
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
@@ -612,17 +685,22 @@
 				A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */,
 				A5C9A05E22E9EACE005443D4 /* SequentialSearchST.swift in Sources */,
 				A5087C5E22D034C900C00C6D /* Linked List.swift in Sources */,
+				A5BF3B7123142A1000D2BDC5 /* Combinations.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
 				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
+				A5BF3B7823156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */,
 				A5C9A06822F08059005443D4 /* MinPQ.swift in Sources */,
+				A5BF3B602314169800D2BDC5 /* Unique Paths.swift in Sources */,
 				A5C9A03A22DCB7EA005443D4 /* Valid Anagram.swift in Sources */,
+				A5BF3B6C23142A1000D2BDC5 /* Combination Sum II.swift in Sources */,
 				A5087C5D22D034C900C00C6D /* Remove Nth Node From End of List.swift in Sources */,
 				A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */,
 				A5C9A06722F08059005443D4 /* MaxPQ.swift in Sources */,
 				A5C9A04D22E09B39005443D4 /* PeakIndexinaMountainArray.swift in Sources */,
 				A5D7D85122A522FE0024159D /* Contains Duplicate II.swift in Sources */,
+				A5BF3B5E2314169800D2BDC5 /* Min-Cost-Climbing-Stairs.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
 				A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */,
@@ -632,9 +710,11 @@
 				A5C9A05222E09B39005443D4 /* Find the Duplicate Number.swift in Sources */,
 				A5C9A05022E09B39005443D4 /* Search Insert Position.swift in Sources */,
 				A5C9A05C22E9DFBC005443D4 /* LinearProbingHashST.swift in Sources */,
+				A5BF3B5F2314169800D2BDC5 /* Climbing Stairs.swift in Sources */,
 				A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */,
 				A5C609C122A7BF94002708DF /* 4Sum.swift in Sources */,
 				A5087C5B22D034C900C00C6D /* Remove Duplicates from Sorted List II.swift in Sources */,
+				A5BF3B7223142A1000D2BDC5 /* Combination Sum.swift in Sources */,
 				A576E7F9229FB2C800D04C93 /* TwoSum.swift in Sources */,
 				A5C9A04F22E09B39005443D4 /* Sqrt.swift in Sources */,
 				A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */,
