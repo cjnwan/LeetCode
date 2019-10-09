@@ -30,6 +30,7 @@
 		A50C7F2322A64158007FE443 /* Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */; };
 		A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2422A650C7007FE443 /* Move Zeroes.swift */; };
 		A50C7F2722A65C88007FE443 /* Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C7F2622A65C88007FE443 /* Remove Element.swift */; };
+		A5254D3A234DB29F00BD57C2 /* 01-Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5254D39234DB29E00BD57C2 /* 01-Matrix.swift */; };
 		A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818722A0F8E70061BE20 /* Heaters.swift */; };
 		A53A818A22A11DF00061BE20 /* Number of Boomerangs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */; };
 		A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */; };
@@ -94,6 +95,9 @@
 		A5C9A07222F1CFD4005443D4 /* IndexMaxPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A07022F1CFD4005443D4 /* IndexMaxPQ.swift */; };
 		A5C9A07622F1D613005443D4 /* EdgeWeightDigraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A07522F1D612005443D4 /* EdgeWeightDigraph.swift */; };
 		A5C9A07822F1D616005443D4 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9A07722F1D615005443D4 /* Dijkstra.swift */; };
+		A5D42752234DC5E5003B5549 /* 02-Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42751234DC5E5003B5549 /* 02-Rotate.swift */; };
+		A5D42754234DD0A2003B5549 /* 03-Zhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42753234DD0A2003B5549 /* 03-Zhi.swift */; };
+		A5D42756234DD8F0003B5549 /* 04-MinK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42755234DD8F0003B5549 /* 04-MinK.swift */; };
 		A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84622A4B8260024159D /* MajorityElement.swift */; };
 		A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84822A4BE410024159D /* MajorityElement II.swift */; };
 		A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */; };
@@ -144,6 +148,7 @@
 		A50C7F2222A64158007FE443 /* Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
 		A50C7F2422A650C7007FE443 /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
 		A50C7F2622A65C88007FE443 /* Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
+		A5254D39234DB29E00BD57C2 /* 01-Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-Matrix.swift"; sourceTree = "<group>"; };
 		A53A818722A0F8E70061BE20 /* Heaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heaters.swift; sourceTree = "<group>"; };
 		A53A818922A11DF00061BE20 /* Number of Boomerangs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Boomerangs.swift"; sourceTree = "<group>"; };
 		A53A818B22A12B0F0061BE20 /* Island Perimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Island Perimeter.swift"; sourceTree = "<group>"; };
@@ -214,6 +219,9 @@
 		A5C9A07022F1CFD4005443D4 /* IndexMaxPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexMaxPQ.swift; sourceTree = "<group>"; };
 		A5C9A07522F1D612005443D4 /* EdgeWeightDigraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EdgeWeightDigraph.swift; path = /Users/chenjiannan/Desktop/LeetCode/LeetCode/DataStruct/Graph/EdgeWeightDigraph.swift; sourceTree = "<absolute>"; };
 		A5C9A07722F1D615005443D4 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dijkstra.swift; path = /Users/chenjiannan/Desktop/LeetCode/LeetCode/DataStruct/Graph/Dijkstra.swift; sourceTree = "<absolute>"; };
+		A5D42751234DC5E5003B5549 /* 02-Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02-Rotate.swift"; sourceTree = "<group>"; };
+		A5D42753234DD0A2003B5549 /* 03-Zhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03-Zhi.swift"; sourceTree = "<group>"; };
+		A5D42755234DD8F0003B5549 /* 04-MinK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-MinK.swift"; sourceTree = "<group>"; };
 		A5D7D84622A4B8260024159D /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		A5D7D84822A4BE410024159D /* MajorityElement II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MajorityElement II.swift"; sourceTree = "<group>"; };
 		A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
@@ -311,6 +319,25 @@
 			path = "Linked List";
 			sourceTree = "<group>";
 		};
+		A5254D37234DB21800BD57C2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				A5254D38234DB22100BD57C2 /* 08-Array */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		A5254D38234DB22100BD57C2 /* 08-Array */ = {
+			isa = PBXGroup;
+			children = (
+				A5254D39234DB29E00BD57C2 /* 01-Matrix.swift */,
+				A5D42751234DC5E5003B5549 /* 02-Rotate.swift */,
+				A5D42753234DD0A2003B5549 /* 03-Zhi.swift */,
+				A5D42755234DD8F0003B5549 /* 04-MinK.swift */,
+			);
+			path = "08-Array";
+			sourceTree = "<group>";
+		};
 		A576E7BD229FA83D00D04C93 = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +361,7 @@
 		A576E7C8229FA83D00D04C93 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				A5254D37234DB21800BD57C2 /* Code */,
 				A5C9A03222D37538005443D4 /* Algorithm */,
 				A5D9E64C22A6968B00C6C9AE /* DataStruct */,
 				A576E7C9229FA83D00D04C93 /* AppDelegate.swift */,
@@ -635,6 +663,7 @@
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5C9A07122F1CFD4005443D4 /* IndexMinPQ.swift in Sources */,
 				A5087C5222D034C900C00C6D /* Remove All Adjacent Duplicates In String.swift in Sources */,
+				A5D42754234DD0A2003B5549 /* 03-Zhi.swift in Sources */,
 				A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */,
 				A5C9A07222F1CFD4005443D4 /* IndexMaxPQ.swift in Sources */,
 				A5C9A05722E7491D005443D4 /* BST.swift in Sources */,
@@ -648,6 +677,7 @@
 				A5BF3B7C2316BCC500D2BDC5 /* Coin Change.swift in Sources */,
 				A5C9A04B22E09B39005443D4 /* Kth Smallest Element in a Sorted Matrix.swift in Sources */,
 				A5087C5622D034C900C00C6D /* NextGreaterElement.swift in Sources */,
+				A5D42752234DC5E5003B5549 /* 02-Rotate.swift in Sources */,
 				A5087C5722D034C900C00C6D /* Valid Parentheses.swift in Sources */,
 				A5BF3B7A2315711800D2BDC5 /* Best Time to Buy and Sell Stock III.swift in Sources */,
 				A5087C3522BA516E00C00C6D /* Heap.swift in Sources */,
@@ -671,6 +701,7 @@
 				A5BF3B7623156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A5C9A06222EF356B005443D4 /* LinkedGraph.swift in Sources */,
 				A5BF3B7423142A1000D2BDC5 /* Subsetsii.swift in Sources */,
+				A5D42756234DD8F0003B5549 /* 04-MinK.swift in Sources */,
 				A5087C5F22D034C900C00C6D /* Swap Nodes in Pairs.swift in Sources */,
 				A5D7D84D22A4ECFE0024159D /* Intersection of Two Arrays II.swift in Sources */,
 				A5C9A04E22E09B39005443D4 /* Binary Search.swift in Sources */,
@@ -685,6 +716,7 @@
 				A5C609BD22A756D5002708DF /* 3Sum.swift in Sources */,
 				A5C9A05E22E9EACE005443D4 /* SequentialSearchST.swift in Sources */,
 				A5087C5E22D034C900C00C6D /* Linked List.swift in Sources */,
+				A5254D3A234DB29F00BD57C2 /* 01-Matrix.swift in Sources */,
 				A5BF3B7123142A1000D2BDC5 /* Combinations.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,

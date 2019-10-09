@@ -9,18 +9,18 @@
 import Foundation
 
 class LongestPalindromicSubstring {
-    func longestPalindrome(_ s: String) -> String {
-        var dp = [Int](repeating: 1, count: s.count)
-        var res = 0
-//        for i in 0..<s.count {
-//            for j in 0..<i {
-//                if true {
-//                    dp[i] = max(dp[i], dp[j]+1)
-//                }
-//            }
-//            res = max(res, dp[i])
-//        }
-        
-        return res
-    }
+//    func longestPalindrome(_ s: String) -> String {
+//        var dp = [Int](repeating: 1, count: s.count)
+//        var res = 0
+////        for i in 0..<s.count {
+////            for j in 0..<i {
+////                if true {
+////                    dp[i] = max(dp[i], dp[j]+1)
+////                }
+////            }
+////            res = max(res, dp[i])
+////        }
+//        
+//        return res
+//    }
 }

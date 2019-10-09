@@ -13,17 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let matrix = MinK()
         
-//        let nums = [1,3,2,5,3,nil,9]
-//        let t = Treee(nums,false)
-//        t.buildbyLevel()
-//        print(t.largestValues(t.root))
+        let arr  = [1, 2, 3, 4]
         
-        
-        let p = LongestIncreasingSubsequence()
-        let nums = [10,9,2,5,3,7,101,18]
-        
-        print(p.lengthOfLIS(nums))
+        print(matrix.findMinK(arr, 2))
   
        
     }
