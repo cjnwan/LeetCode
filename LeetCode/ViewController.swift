@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let matrix = MinK()
+        let matrix = MaxLength()
         
-        let arr  = [1, 2, 3, 4]
+        let arr  = [1,2,3,3]
         
-        print(matrix.findMinK(arr, 2))
+        print(matrix.getMaxLength2(arr, 6))
   
        
     }

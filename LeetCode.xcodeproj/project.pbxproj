@@ -98,6 +98,12 @@
 		A5D42752234DC5E5003B5549 /* 02-Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42751234DC5E5003B5549 /* 02-Rotate.swift */; };
 		A5D42754234DD0A2003B5549 /* 03-Zhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42753234DD0A2003B5549 /* 03-Zhi.swift */; };
 		A5D42756234DD8F0003B5549 /* 04-MinK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42755234DD8F0003B5549 /* 04-MinK.swift */; };
+		A5D42758234EDE82003B5549 /* 05-MinLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42757234EDE82003B5549 /* 05-MinLength.swift */; };
+		A5D4275A234F0241003B5549 /* 06-MoreHalfTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42759234F0241003B5549 /* 06-MoreHalfTimes.swift */; };
+		A5D4275C234F06FB003B5549 /* 07-MatrixValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4275B234F06FB003B5549 /* 07-MatrixValue.swift */; };
+		A5D4275E234F0BD5003B5549 /* 08-MaxCombinedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4275D234F0BD5003B5549 /* 08-MaxCombinedArray.swift */; };
+		A5D42760234F137A003B5549 /* 09-UniquePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4275F234F137A003B5549 /* 09-UniquePrint.swift */; };
+		A5D42762234F2384003B5549 /* 10-MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D42761234F2384003B5549 /* 10-MaxLength.swift */; };
 		A5D7D84722A4B8260024159D /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84622A4B8260024159D /* MajorityElement.swift */; };
 		A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84822A4BE410024159D /* MajorityElement II.swift */; };
 		A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */; };
@@ -222,6 +228,12 @@
 		A5D42751234DC5E5003B5549 /* 02-Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02-Rotate.swift"; sourceTree = "<group>"; };
 		A5D42753234DD0A2003B5549 /* 03-Zhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03-Zhi.swift"; sourceTree = "<group>"; };
 		A5D42755234DD8F0003B5549 /* 04-MinK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-MinK.swift"; sourceTree = "<group>"; };
+		A5D42757234EDE82003B5549 /* 05-MinLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05-MinLength.swift"; sourceTree = "<group>"; };
+		A5D42759234F0241003B5549 /* 06-MoreHalfTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06-MoreHalfTimes.swift"; sourceTree = "<group>"; };
+		A5D4275B234F06FB003B5549 /* 07-MatrixValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07-MatrixValue.swift"; sourceTree = "<group>"; };
+		A5D4275D234F0BD5003B5549 /* 08-MaxCombinedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08-MaxCombinedArray.swift"; sourceTree = "<group>"; };
+		A5D4275F234F137A003B5549 /* 09-UniquePrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "09-UniquePrint.swift"; sourceTree = "<group>"; };
+		A5D42761234F2384003B5549 /* 10-MaxLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-MaxLength.swift"; sourceTree = "<group>"; };
 		A5D7D84622A4B8260024159D /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		A5D7D84822A4BE410024159D /* MajorityElement II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MajorityElement II.swift"; sourceTree = "<group>"; };
 		A5D7D84A22A4E98E0024159D /* Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
@@ -334,6 +346,12 @@
 				A5D42751234DC5E5003B5549 /* 02-Rotate.swift */,
 				A5D42753234DD0A2003B5549 /* 03-Zhi.swift */,
 				A5D42755234DD8F0003B5549 /* 04-MinK.swift */,
+				A5D42757234EDE82003B5549 /* 05-MinLength.swift */,
+				A5D42759234F0241003B5549 /* 06-MoreHalfTimes.swift */,
+				A5D4275B234F06FB003B5549 /* 07-MatrixValue.swift */,
+				A5D4275D234F0BD5003B5549 /* 08-MaxCombinedArray.swift */,
+				A5D4275F234F137A003B5549 /* 09-UniquePrint.swift */,
+				A5D42761234F2384003B5549 /* 10-MaxLength.swift */,
 			);
 			path = "08-Array";
 			sourceTree = "<group>";
@@ -659,6 +677,7 @@
 			files = (
 				A5D7D84F22A5218B0024159D /* Contains Duplicate.swift in Sources */,
 				A5BF3B7E2316C47D00D2BDC5 /* Longest Increasing Subsequence.swift in Sources */,
+				A5D4275A234F0241003B5549 /* 06-MoreHalfTimes.swift in Sources */,
 				A5087C5822D034C900C00C6D /* Reverse Linked List.swift in Sources */,
 				A576E7FB229FB92400D04C93 /* Sort Array By Parity.swift in Sources */,
 				A5C9A07122F1CFD4005443D4 /* IndexMinPQ.swift in Sources */,
@@ -667,6 +686,7 @@
 				A5C9A05122E09B39005443D4 /* Find Smallest Letter Greater Than Target.swift in Sources */,
 				A5C9A07222F1CFD4005443D4 /* IndexMaxPQ.swift in Sources */,
 				A5C9A05722E7491D005443D4 /* BST.swift in Sources */,
+				A5D42760234F137A003B5549 /* 09-UniquePrint.swift in Sources */,
 				A5851CB4230B7253002EE81B /* Permutations.swift in Sources */,
 				A5C609BF22A769BC002708DF /* 3Sum Closest.swift in Sources */,
 				A5BF3B7023142A1000D2BDC5 /* Palindrome Partitioning.swift in Sources */,
@@ -696,6 +716,7 @@
 				A53A818C22A12B0F0061BE20 /* Island Perimeter.swift in Sources */,
 				A5C9A05422E09B84005443D4 /* Tree.swift in Sources */,
 				A5C9A04C22E09B39005443D4 /* Find Peak Element.swift in Sources */,
+				A5D4275E234F0BD5003B5549 /* 08-MaxCombinedArray.swift in Sources */,
 				A5C9A06022E9EFF0005443D4 /* SeparateChainingHashST.swift in Sources */,
 				A5C9A03622DCA581005443D4 /* SortArrayByParityII.swift in Sources */,
 				A5BF3B7623156A9E00D2BDC5 /* Best Time to Buy and Sell Stock.swift in Sources */,
@@ -709,6 +730,7 @@
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
 				A5BF3B622314172F00D2BDC5 /* Unique Paths ii.swift in Sources */,
 				A5BF3B6F23142A1000D2BDC5 /* Combination Sum III.swift in Sources */,
+				A5D4275C234F06FB003B5549 /* 07-MatrixValue.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
 				A5087C5122D034C900C00C6D /* Stack.swift in Sources */,
 				A5D7D84922A4BE410024159D /* MajorityElement II.swift in Sources */,
@@ -720,6 +742,7 @@
 				A5BF3B7123142A1000D2BDC5 /* Combinations.swift in Sources */,
 				A53A818822A0F8E70061BE20 /* Heaters.swift in Sources */,
 				A5087C3F22BF5D8600C00C6D /* String.swift in Sources */,
+				A5D42758234EDE82003B5549 /* 05-MinLength.swift in Sources */,
 				A5087C3B22BDF08E00C00C6D /* Graph.swift in Sources */,
 				A5BF3B7823156FA000D2BDC5 /* Best Time to Buy and Sell Stock II.swift in Sources */,
 				A5087C5A22D034C900C00C6D /* Merge Two Sorted Lists.swift in Sources */,
@@ -735,6 +758,7 @@
 				A5BF3B5E2314169800D2BDC5 /* Min-Cost-Climbing-Stairs.swift in Sources */,
 				A5D7D84B22A4E98E0024159D /* Intersection of Two Arrays.swift in Sources */,
 				A576E7FD229FC71F00D04C93 /* Max Consecutive Ones.swift in Sources */,
+				A5D42762234F2384003B5549 /* 10-MaxLength.swift in Sources */,
 				A5D9E64F22A696B300C6C9AE /* Binary Search Tree.swift in Sources */,
 				A5C9A06422F0804B005443D4 /* Digraph.swift in Sources */,
 				A576E7CA229FA83D00D04C93 /* AppDelegate.swift in Sources */,
