@@ -51,6 +51,7 @@
 		A58C328223544E5F008AE5CE /* 04-Palindromic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C328123544E5F008AE5CE /* 04-Palindromic.swift */; };
 		A58C32842354570C008AE5CE /* 05-AddSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C32832354570C008AE5CE /* 05-AddSum.swift */; };
 		A58C328623546C01008AE5CE /* 06-KReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C328523546C01008AE5CE /* 06-KReverse.swift */; };
+		A5A9062F23555EC100246464 /* 07-Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9062E23555EC100246464 /* 07-Exercise.swift */; };
 		A5BF3B5E2314169800D2BDC5 /* Min-Cost-Climbing-Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5B2314169700D2BDC5 /* Min-Cost-Climbing-Stairs.swift */; };
 		A5BF3B5F2314169800D2BDC5 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5C2314169700D2BDC5 /* Climbing Stairs.swift */; };
 		A5BF3B602314169800D2BDC5 /* Unique Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF3B5D2314169700D2BDC5 /* Unique Paths.swift */; };
@@ -198,6 +199,7 @@
 		A58C328123544E5F008AE5CE /* 04-Palindromic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-Palindromic.swift"; sourceTree = "<group>"; };
 		A58C32832354570C008AE5CE /* 05-AddSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05-AddSum.swift"; sourceTree = "<group>"; };
 		A58C328523546C01008AE5CE /* 06-KReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06-KReverse.swift"; sourceTree = "<group>"; };
+		A5A9062E23555EC100246464 /* 07-Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07-Exercise.swift"; sourceTree = "<group>"; };
 		A5BF3B5B2314169700D2BDC5 /* Min-Cost-Climbing-Stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Min-Cost-Climbing-Stairs.swift"; sourceTree = "<group>"; };
 		A5BF3B5C2314169700D2BDC5 /* Climbing Stairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
 		A5BF3B5D2314169700D2BDC5 /* Unique Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Unique Paths.swift"; sourceTree = "<group>"; };
@@ -580,6 +582,7 @@
 				A58C328123544E5F008AE5CE /* 04-Palindromic.swift */,
 				A58C32832354570C008AE5CE /* 05-AddSum.swift */,
 				A58C328523546C01008AE5CE /* 06-KReverse.swift */,
+				A5A9062E23555EC100246464 /* 07-Exercise.swift */,
 			);
 			path = "02-LinkedList";
 			sourceTree = "<group>";
@@ -801,6 +804,7 @@
 				A5087C5922D034C900C00C6D /* Odd Even Linked List.swift in Sources */,
 				A50C7F2522A650C7007FE443 /* Move Zeroes.swift in Sources */,
 				A5BF3B622314172F00D2BDC5 /* Unique Paths ii.swift in Sources */,
+				A5A9062F23555EC100246464 /* 07-Exercise.swift in Sources */,
 				A5BF3B6F23142A1000D2BDC5 /* Combination Sum III.swift in Sources */,
 				A5D4275C234F06FB003B5549 /* 07-MatrixValue.swift in Sources */,
 				A50C7F2122A60850007FE443 /* Remove Duplicates from Sorted Array.swift in Sources */,
