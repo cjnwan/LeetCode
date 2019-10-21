@@ -794,6 +794,102 @@ extension Treee {
             let node = s2.removeLast()
             print(node!.val)
         }
+    }
+}
+
+extension Treee {
+    func serialByPre(_ root:TreeeNode?)->String {
+        if root == nil {
+            return "#!"
+        }
         
+        var res = String(root!.val) + "!"
+        res += serialByPre(root?.left)
+        res += serialByPre(root?.right)
+        return res
+    }
+    
+    func reconByPreString(_ preStr:String) -> TreeeNode? {
+        let values = preStr.split(separator: "!")
+        
+        var queue = [String]()
+        
+        for i in 0..<values.count {
+            queue.append(String(values[i]))
+        }
+        return reconPreOrder(queue)
+    }
+    
+    func reconPreOrder(_ queue:[String])->TreeeNode? {
+        var queue = queue
+        let value = queue.removeFirst()
+        if value == "#" {
+            return nil
+        }
+        let head = TreeeNode(Int(value) ?? 0)
+        head.left = reconPreOrder(queue)
+        head.right = reconPreOrder(queue)
+        return head
+    }
+    
+    func serialByLevel(_ root:TreeeNode?)->String {
+        if root == nil {
+            return "#!"
+        }
+        var res = String(root!.val) + "!"
+        var queue = [TreeeNode?]()
+        
+        queue.append(root)
+        while !queue.isEmpty {
+            let node = queue.removeFirst()
+            if node!.left != nil {
+                res += String(node!.left!.val) + "!"
+                queue.append(node!.left)
+            } else {
+                res += "#!"
+            }
+            
+            if node!.right != nil {
+                res += String(node!.right!.val) + "!"
+                queue.append(node!.right)
+            } else {
+                res += "#!"
+            }
+        }
+        return res
+    }
+    
+    func reconByLevelString(_ levelStr:String)->TreeeNode? {
+        let values = levelStr.split(separator: "!")
+        var queue = [TreeeNode?]()
+        
+        var index = 0
+        let head = generateNodeByString(String(values[index]))
+        index += 1
+        if head != nil {
+            queue.append(head)
+        }
+        var node : TreeeNode?
+        while !queue.isEmpty {
+            node = queue.removeFirst()
+            node?.left = generateNodeByString(String(values[index]))
+            index += 1
+            node?.right = generateNodeByString(String(values[index]))
+            index += 1
+            if node?.left != nil {
+                queue.append(node?.left)
+            }
+            if node?.right != nil {
+                queue.append(node?.right)
+            }
+        }
+        return head
+    }
+    
+    func generateNodeByString(_ str:String)->TreeeNode? {
+        if str == "#" {
+            return nil
+        }
+        return TreeeNode(Int(str) ?? 0)
     }
 }

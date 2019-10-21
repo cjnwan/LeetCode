@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         
         
         
-        let num = [1,2,3,4,5,6,7]
+        let num = [1,2,3,4,nil,nil,5,nil,nil,nil,nil]
         let t = Treee(num,false)
         t.buildbyLevel()
-        t.postOrderNoRecurisive(t.root)
+        print(t.serialByLevel(t.root))
     
     }
 }
