@@ -97,7 +97,7 @@ public class Treee {
         var root = root
         while root != nil || stack.count > 0 {
             while root != nil {
-                print(root?.val)
+                print(root!.val)
                 stack.append(root)
                 root = root?.left
             }
@@ -728,5 +728,72 @@ extension Treee {
             stack.insert(res, at: 0)
         }
         return stack
+    }
+}
+
+extension Treee {
+    func preOrderNORecursive(_ root:TreeeNode?) {
+        if root == nil {
+            return
+        }
+        
+        var stack = [TreeeNode?]()
+        stack.append(root)
+        
+        while !stack.isEmpty {
+            let node = stack.removeLast()
+            print(node!.val)
+            if node!.right != nil {
+                stack.append(node!.right)
+            }
+            if node!.left != nil {
+                stack.append(node!.left)
+            }
+        }
+    }
+    
+    func inOrderNoRecurisive(_ root:TreeeNode?) {
+        if root == nil {
+            return
+        }
+        var root = root
+        var stack = [TreeeNode?]()
+        while !stack.isEmpty || root != nil {
+            if root != nil {
+                stack.append(root)
+                root = root?.left
+            } else {
+                root = stack.removeLast()
+                print(root!.val)
+                root = root?.right
+            }
+        }
+    }
+    
+    func postOrderNoRecurisive(_ root:TreeeNode?) {
+        if root == nil {
+            return
+        }
+        
+        var s1 = [TreeeNode?]()
+        var s2 = [TreeeNode?]()
+        
+        s1.append(root)
+        while !s1.isEmpty {
+            let node = s1.removeLast()
+            s2.append(node)
+            if node?.left != nil {
+                s1.append(node?.left)
+            }
+            if node?.right != nil {
+                s1.append(node?.right)
+            }
+        }
+        
+        while !s2.isEmpty {
+            let node = s2.removeLast()
+            print(node!.val)
+        }
+        
     }
 }

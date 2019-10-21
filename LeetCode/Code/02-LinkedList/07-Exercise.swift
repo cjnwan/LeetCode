@@ -303,8 +303,7 @@ class Exercise {
         
         var pre:ListNode? = nil
         var next:ListNode? = nil
-        // 0237
-        // 13579
+
         while cur1 != nil && cur2 != nil {
             if cur1!.val <=  cur2!.val {
                 pre = cur1
@@ -327,17 +326,118 @@ class Exercise {
         if head == nil || head?.next == nil {
             return head
         }
+        let dummy = ListNode(0)
+        dummy.next = head
         
-        var pre = head
-        var curr = head?.next
+        var pre:ListNode? = dummy
+        var curr = head
+        while curr != nil && curr!.next != nil {
+            let temp = curr?.next
+            let next = temp?.next
+            pre?.next = temp
+            temp?.next = curr
+            
+            pre = curr
+            curr = next
+        }
+        pre?.next = curr
+        return dummy.next
+    }
+    
+    // Add List Not Reverse
+    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        if l1 == nil {
+            return l2
+        }
         
-        while curr != nil && curr?.next != nil {
-            let next = curr?.next
-            curr?.next = pre
-            pre?.next = next?.next
-            pre = next
-            curr = next?.next
+        if l2 == nil {
+            return l1
+        }
+        
+        var l1 = l1
+        var l2 = l2
+        var head :ListNode? = nil
+        var pre : ListNode? = nil
+        var ca = 0
+        while l1 != nil || l2 != nil {
+            var v1 = 0
+            if l1 != nil {
+                v1 = l1!.val
+            }
+            
+            var v2 = 0
+            if l2 != nil {
+                v2 = l2!.val
+            }
+            
+            let value = v1 + v2 + ca
+            let node = ListNode(value%10)
+            if  pre == nil {
+                head = node
+                pre = node
+            } else {
+                pre?.next = node
+                pre = node
+            }
+            
+            ca = value/10
+            l1 = l1?.next
+            l2 = l2?.next
+        }
+        
+        if ca == 1 {
+            let node = ListNode(1)
+            pre?.next = node
+            pre = node
         }
         return head
     }
+    
+    // Partition
+    func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
+        
+        var head = head
+        
+        var left  = ListNode(0)
+        let leftHead = left
+        var right = ListNode(0)
+        let rightHead = right
+        
+        while head != nil {
+            if head!.val < x {
+                left.next = head
+                left = head!
+            } else {
+                right.next = head
+                right = head!
+            }
+            head = head?.next
+        }
+        
+        left.next = rightHead.next
+        right.next = nil
+        
+        return leftHead.next
+    }
+    
+    // OddEven
+    func oddEvenList(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil || head?.next?.next == nil {
+            return head
+        }
+        var odd = head // 奇数
+        var even = head?.next
+        let dummy = even
+        
+        while even != nil && odd != nil {
+            odd?.next = even?.next
+            odd = odd?.next
+            even?.next = odd?.next
+            even = even?.next
+        }
+        odd?.next = dummy
+        return head
+    }
 }
+
+
