@@ -893,3 +893,99 @@ extension Treee {
         return TreeeNode(Int(str) ?? 0)
     }
 }
+
+extension Treee {
+    func printByLevel(_ root:TreeeNode?) {
+        if root == nil {
+            return
+        }
+        
+        var queue = [TreeeNode?]()
+        var last = root
+        var nLast:TreeeNode?
+        var level = 1
+        
+        queue.append(root)
+        print("Level  \(level)  :")
+        level += 1
+        while !queue.isEmpty {
+            let node = queue.removeFirst()
+            print(node!.val ,terminator:"")
+            if node?.left != nil {
+                queue.append(node?.left)
+                nLast = node?.left
+            }
+            
+            if node?.right != nil {
+                queue.append(node?.right)
+                nLast = node?.right
+            }
+            
+            if node === last && !queue.isEmpty {
+                print("Level  \(level)  :")
+                level += 1
+                last = nLast
+                print()
+            }
+        }
+    }
+    
+    func printByZigZag(_ root:TreeeNode?) {
+        if root == nil {
+            return
+        }
+        var root = root
+        var queue = [TreeeNode?]()
+        queue.append(root)
+        var lr = true
+        var last = root
+        var level = 1
+        var nLast:TreeeNode?
+        
+        printLevelAndOritentation(level, lr)
+        level += 1
+        while !queue.isEmpty {
+            
+            if lr {
+                root = queue.removeFirst()
+                if root?.left != nil {
+                    nLast = nLast == nil ? root?.left : nLast
+                    queue.append(root?.left)
+                }
+                if root?.right != nil {
+                    nLast = nLast == nil ? root?.right : nLast
+                    queue.append(root?.right)
+                }
+            } else {
+                root = queue.removeLast()
+                if root?.right != nil {
+                    nLast = nLast == nil ? root?.right : nLast
+                    queue.insert(root?.right, at: 0)
+                }
+                if root?.left != nil {
+                    nLast = nLast == nil ? root?.left : nLast
+                    queue.insert(root?.left, at: 0)
+                }
+            }
+            print(root!.val ,terminator:"")
+            if root === last && !queue.isEmpty {
+                lr = !lr
+                last = nLast
+                nLast = nil
+                print()
+                printLevelAndOritentation(level, lr)
+                level += 1
+            }
+        }
+        print()
+    }
+    
+    func printLevelAndOritentation(_ level:Int, _ lr:Bool) {
+        print("Level  \(level) from",terminator:"")
+        if lr {
+            print("Left to right")
+        } else {
+            print("Right to Left")
+        }
+    }
+}

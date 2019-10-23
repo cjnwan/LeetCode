@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         
         
         
-        let num = [1,2,3,4,nil,nil,5,nil,nil,nil,nil]
+        let num = [1,2,3,4,5,6,7]
         let t = Treee(num,false)
         t.buildbyLevel()
-        print(t.serialByLevel(t.root))
+        t.printByZigZag(t.root)
     
     }
 }
